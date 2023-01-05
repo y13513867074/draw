@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T02:33:57.261Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.0" etag="T_VtH-wfSNK1Vln1StVn" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-05T12:43:50.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.0" etag="SHvSxZY7rVsyy3lC_qGP" type="github">
   <diagram id="4Sr3pd_Fo9CKyCCXNbhV" name="第 1 页">
-    <mxGraphModel dx="1877" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2889" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -173,6 +173,48 @@
         </mxCell>
         <mxCell id="rn0mMrodME0fii2WGuMn-72" value="记录失败的方案" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
           <mxGeometry x="247.5" y="807.5" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="rn0mMrodME0fii2WGuMn-79" value="t_menu_category&lt;br&gt;类目信息表" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="15" width="189" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="rn0mMrodME0fii2WGuMn-80" value="id 主键&lt;br&gt;parent_id 父id&lt;br&gt;name 姓名&lt;br&gt;level 级别&lt;br&gt;available_status 有效状态&lt;br&gt;delete_status 删除状态&lt;br&gt;sort_num 排序值&lt;br&gt;color 色值&lt;br&gt;desc 描述" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rn0mMrodME0fii2WGuMn-79">
+          <mxGeometry x="20" y="30" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rn0mMrodME0fii2WGuMn-81" value="t_menu_commodity&lt;br&gt;三级类目商品信息表" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="335" width="190" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="rn0mMrodME0fii2WGuMn-82" value="id 主键&lt;br&gt;commodity_id 商品id&lt;br&gt;commodity_code 商品编号&lt;br&gt;third_tactic_id 三级策略ID&lt;br&gt;sort_num 排序值&lt;br&gt;delete_status 删除状态" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rn0mMrodME0fii2WGuMn-81">
+          <mxGeometry x="10" y="37.5" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rn0mMrodME0fii2WGuMn-83" value="t_menu_period&lt;br&gt;三级类目时间段表" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="15" width="200" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="rn0mMrodME0fii2WGuMn-84" value="id 主键&lt;br&gt;third_tactic_id 三级策略ID&lt;br&gt;period_main_type 时间段主类型&lt;br&gt;period_sub_type 时间段子类型&lt;br&gt;period_start_time 开始时间&lt;br&gt;period_end_time 结束时间&lt;br&gt;period_day 星期集合，逗号隔开&lt;br&gt;delete_status 删除状态" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rn0mMrodME0fii2WGuMn-83">
+          <mxGeometry x="10" y="30" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rn0mMrodME0fii2WGuMn-85" value="t_menu_plan&lt;br&gt;经典菜单方案信息表" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="-1410" y="15" width="210" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="rn0mMrodME0fii2WGuMn-86" value="id 主键&lt;br&gt;plan_no 方案id&lt;br&gt;plan_name 方案名称&lt;br&gt;menu_name 菜单名称&lt;br&gt;plan_start_time 方案开始时间&lt;br&gt;plan_end_time 方案结束时间&lt;br&gt;enable_status 启动状态&lt;br&gt;is_default 是否默认方案&lt;br&gt;config_status 配置状态&lt;br&gt;desc 描述&lt;br&gt;create_by 创建人&lt;br&gt;create_time 创建时间&lt;br&gt;last_modify_by 修改人&lt;br&gt;last_modify_time 最后修改时间&lt;br&gt;remark 备注&lt;br&gt;delete_status 删除状态" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rn0mMrodME0fii2WGuMn-85">
+          <mxGeometry x="20" y="30" width="190" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="rn0mMrodME0fii2WGuMn-87" value="t_menu_second_tactic&lt;br&gt;二级类目策略信息表" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="230" width="189" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rn0mMrodME0fii2WGuMn-88" value="id 主键，二级策略ID&lt;br&gt;tactic_id 策略ID&lt;br&gt;category_id 所属类目ID&lt;br&gt;delete_status 删除状态" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rn0mMrodME0fii2WGuMn-87">
+          <mxGeometry x="10" y="35" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rn0mMrodME0fii2WGuMn-89" value="t_menu_tactic&lt;br&gt;经典菜单类目策略信息表" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="15" width="240" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="rn0mMrodME0fii2WGuMn-90" value="id 主键&lt;br&gt;plan_id 所属方案id&lt;br&gt;tactic_no 策略编号&lt;br&gt;tactic_name 策略名称&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;category_id 所属菜单类目&lt;/span&gt;&lt;div&gt;available_status 有效状态&lt;/div&gt;&lt;div&gt;desc 策略描述&lt;/div&gt;&lt;div&gt;show_type 展示层级&lt;/div&gt;&lt;div&gt;is_algorithm 是否经过算法排序&lt;/div&gt;&lt;div&gt;create_by 创建人&lt;/div&gt;&lt;div&gt;create_time 创建时间&lt;/div&gt;&lt;div&gt;last_modify_by 最后修改人&lt;/div&gt;&lt;div&gt;last_modify_time 最后修改时间&lt;/div&gt;&lt;div&gt;remark 备注&lt;/div&gt;&lt;div&gt;delete_status 删除状态&lt;/div&gt;&lt;div&gt;sort_num 排序值&lt;/div&gt;&lt;div&gt;show_content_type 展示内容&lt;/div&gt;&lt;div&gt;show_num 展示数量&lt;/div&gt;&lt;div&gt;algorithm_replace 是否开启算法替位&lt;/div&gt;&lt;div&gt;algorithm_pattern 算法模型&lt;/div&gt;&lt;div&gt;top_replace_start 替换区间起始值&lt;/div&gt;&lt;div&gt;top_replace_end 替换区间结束值&lt;/div&gt;&lt;div&gt;commodity_tactic_no 商品策略编码&lt;/div&gt;&lt;div&gt;commodity_sort_type 商品排序类型&lt;/div&gt;&lt;div&gt;copy_source_tactic 复制源策略编号&lt;/div&gt;&lt;div&gt;scope_change_type 变更范围类型&lt;/div&gt;&lt;div&gt;period_main_type 时间段主类型&lt;/div&gt;&lt;div&gt;period_sub_type 时间段子类型&lt;/div&gt;&lt;div&gt;period_start_time 开始时间&lt;/div&gt;&lt;div&gt;period_end_time 结束时间&lt;/div&gt;&lt;div&gt;period_day 星期集合,逗号隔开&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rn0mMrodME0fii2WGuMn-89">
+          <mxGeometry x="20" y="40" width="220" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="rn0mMrodME0fii2WGuMn-92" value="t_menu_third_tactic&lt;br&gt;三级类目策略信息表" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="390" width="189" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rn0mMrodME0fii2WGuMn-93" value="id 主键，三级策略ID&lt;br&gt;tactic_id 策略ID&lt;br&gt;second_tatic_id 二级策略ID&lt;br&gt;delete_status 删除状态" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rn0mMrodME0fii2WGuMn-92">
+          <mxGeometry x="10" y="35" width="170" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
