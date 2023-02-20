@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T10:31:42.187Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="ZUnlT0tm3dCZ0MNb56Dp" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-20T02:27:22.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="kkTGzIAHWUeXGmdtdYQp" version="20.8.20" type="github">
   <diagram id="4Sr3pd_Fo9CKyCCXNbhV" name="第 1 页">
-    <mxGraphModel dx="2801" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3247" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -498,6 +498,63 @@
         </mxCell>
         <mxCell id="qkqdTj-M8JjV1qXhdFVq-19" value="id 主键&lt;br&gt;&lt;div&gt;tactic_no 策略编号&lt;/div&gt;&lt;div&gt;tactic_name 策略名称&lt;/div&gt;&lt;div&gt;plan_id 方案ID&lt;/div&gt;&lt;div&gt;position_id 展示位小类ID&lt;/div&gt;&lt;div&gt;position_code 展示位小类code&lt;/div&gt;&lt;div&gt;module_name 模块名称&lt;/div&gt;&lt;div&gt;module_num 模块数量&lt;/div&gt;&lt;div&gt;valid 是否有效&lt;/div&gt;&lt;div&gt;create_emp 创建人ID&lt;/div&gt;&lt;div&gt;create_time 创建时间&lt;/div&gt;&lt;div&gt;modify_emp 最后修改人&lt;/div&gt;&lt;div&gt;modify_time 最后修改时间&lt;/div&gt;&lt;div&gt;modify_remark 修改备注&lt;/div&gt;&lt;div&gt;remark 策略描述&lt;/div&gt;&lt;div&gt;delete_status 删除状态&lt;/div&gt;&lt;div&gt;media_status 素材状态&lt;/div&gt;&lt;div&gt;media_task_status 素材任务状态&lt;/div&gt;&lt;div&gt;use_status 使用状态 0:未使用, 1:已使用&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="qkqdTj-M8JjV1qXhdFVq-18" vertex="1">
           <mxGeometry x="5" y="30" width="230" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-17" value="&lt;ul&gt;&lt;li&gt;触点经典菜单&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1630" y="5" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-18" value="&lt;ul&gt;&lt;li&gt;组织架构&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1645" y="1475" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-19" value="&lt;ul&gt;&lt;li&gt;触点展示位&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="-1000" y="1420" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-20" value="调用" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-21" value="接口入参校验" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1530" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-23" value="调用触点系统通过方案获取数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="2060" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-25" value="封装引擎过滤参数" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1700" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-26" value="命中灰度，查缓存封装数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="695" y="2060" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=36;" edge="1" parent="1" source="qWmHe_H_0HpwJOXy_3PC-28" target="qWmHe_H_0HpwJOXy_3PC-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=36;" edge="1" parent="1" source="qWmHe_H_0HpwJOXy_3PC-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="1935" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-39" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=36;" vertex="1" connectable="0" parent="qWmHe_H_0HpwJOXy_3PC-38">
+          <mxGeometry x="-0.2724" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-28" value="是否灰度" style="rhombus;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="935" y="1860" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-29" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="980" y="2250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-36" value="接口入参校验" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1600" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.996;entryY=0.678;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=36;" edge="1" parent="1" source="qWmHe_H_0HpwJOXy_3PC-37" target="qWmHe_H_0HpwJOXy_3PC-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-42" value="无命中引擎方案" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=36;" vertex="1" connectable="0" parent="qWmHe_H_0HpwJOXy_3PC-41">
+          <mxGeometry x="-0.0466" y="-3" relative="1" as="geometry">
+            <mxPoint x="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-37" value="调用触点引擎查询命中方案" style="rhombus;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="1860" width="170" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
