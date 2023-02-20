@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-20T08:41:15.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="9UzH50sZWau8YuABb07a" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-20T08:45:34.722Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="zNJ6LFUXKsReoA2y0KhZ" version="20.8.20" type="github">
   <diagram id="4Sr3pd_Fo9CKyCCXNbhV" name="第 1 页">
-    <mxGraphModel dx="4841" dy="1680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3341" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -906,6 +906,9 @@
         </mxCell>
         <mxCell id="qWmHe_H_0HpwJOXy_3PC-205" value="先清除本地，在清除redis" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1683.75" y="3110" width="370" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-208" value="触点弹窗" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="805" y="10" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
