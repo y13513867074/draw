@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-20T02:27:22.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="kkTGzIAHWUeXGmdtdYQp" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-20T02:31:42.555Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="XcuAj6pphQVMkrnfgW_x" version="20.8.20" type="github">
   <diagram id="4Sr3pd_Fo9CKyCCXNbhV" name="第 1 页">
-    <mxGraphModel dx="3247" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4841" dy="1680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -508,17 +508,32 @@
         <mxCell id="qWmHe_H_0HpwJOXy_3PC-19" value="&lt;ul&gt;&lt;li&gt;触点展示位&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=36;" vertex="1" parent="1">
           <mxGeometry x="-1000" y="1420" width="240" height="130" as="geometry" />
         </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=36;" edge="1" parent="1" source="qWmHe_H_0HpwJOXy_3PC-20" target="qWmHe_H_0HpwJOXy_3PC-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qWmHe_H_0HpwJOXy_3PC-20" value="调用" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=36;" vertex="1" parent="1">
           <mxGeometry x="980" y="1390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=36;" edge="1" parent="1" source="qWmHe_H_0HpwJOXy_3PC-21" target="qWmHe_H_0HpwJOXy_3PC-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qWmHe_H_0HpwJOXy_3PC-21" value="接口入参校验" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
           <mxGeometry x="900" y="1530" width="240" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=36;" edge="1" parent="1" source="qWmHe_H_0HpwJOXy_3PC-23" target="qWmHe_H_0HpwJOXy_3PC-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qWmHe_H_0HpwJOXy_3PC-23" value="调用触点系统通过方案获取数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
           <mxGeometry x="1480" y="2060" width="280" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=36;" edge="1" parent="1" source="qWmHe_H_0HpwJOXy_3PC-25" target="qWmHe_H_0HpwJOXy_3PC-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qWmHe_H_0HpwJOXy_3PC-25" value="封装引擎过滤参数" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
           <mxGeometry x="900" y="1700" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=36;" edge="1" parent="1" source="qWmHe_H_0HpwJOXy_3PC-26" target="qWmHe_H_0HpwJOXy_3PC-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qWmHe_H_0HpwJOXy_3PC-26" value="命中灰度，查缓存封装数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
           <mxGeometry x="695" y="2060" width="240" height="100" as="geometry" />
@@ -540,10 +555,13 @@
           <mxGeometry x="935" y="1860" width="170" height="150" as="geometry" />
         </mxCell>
         <mxCell id="qWmHe_H_0HpwJOXy_3PC-29" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=36;" vertex="1" parent="1">
-          <mxGeometry x="980" y="2250" width="80" height="80" as="geometry" />
+          <mxGeometry x="980" y="2620" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qWmHe_H_0HpwJOXy_3PC-36" value="接口入参校验" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
-          <mxGeometry x="620" y="1600" width="240" height="100" as="geometry" />
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=36;" edge="1" parent="1" source="qWmHe_H_0HpwJOXy_3PC-36" target="qWmHe_H_0HpwJOXy_3PC-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-36" value="查询自定义模块数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="900" y="2238" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="qWmHe_H_0HpwJOXy_3PC-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.996;entryY=0.678;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=36;" edge="1" parent="1" source="qWmHe_H_0HpwJOXy_3PC-37" target="qWmHe_H_0HpwJOXy_3PC-26">
           <mxGeometry relative="1" as="geometry" />
@@ -553,8 +571,22 @@
             <mxPoint x="-40" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=36;" edge="1" parent="1" source="qWmHe_H_0HpwJOXy_3PC-37" target="qWmHe_H_0HpwJOXy_3PC-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-47" value="命中方案" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=36;" vertex="1" connectable="0" parent="qWmHe_H_0HpwJOXy_3PC-46">
+          <mxGeometry x="-0.2761" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="qWmHe_H_0HpwJOXy_3PC-37" value="调用触点引擎查询命中方案" style="rhombus;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
           <mxGeometry x="1241" y="1860" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=36;" edge="1" parent="1" source="qWmHe_H_0HpwJOXy_3PC-51" target="qWmHe_H_0HpwJOXy_3PC-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qWmHe_H_0HpwJOXy_3PC-51" value="封装方案数据和自定义数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="900" y="2430" width="240" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
