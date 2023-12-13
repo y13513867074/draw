@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T08:32:19.723Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="7cmzVZDfjpBz2UKLi3eg" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T09:30:17.617Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="LmfLTbRc72qutfIoQ402" version="22.1.8" type="github">
   <diagram name="第 1 页" id="KpqGxGC6dAmvfTL2YmEG">
-    <mxGraphModel dx="3075" dy="1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3771" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -323,9 +323,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zhikA-ScfWU6xWXfbDUt-115" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="83" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="zhikA-ScfWU6xWXfbDUt-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zhikA-ScfWU6xWXfbDUt-117" target="zhikA-ScfWU6xWXfbDUt-121">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -465,6 +462,12 @@
         </mxCell>
         <mxCell id="zhikA-ScfWU6xWXfbDUt-165" value="调用腾讯开放平台获基于auto_code重新获取token信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-210" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zhikA-ScfWU6xWXfbDUt-168" value="上报消息时兜底" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="85" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zhikA-ScfWU6xWXfbDUt-169" value="定时任务刷新token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="90" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
