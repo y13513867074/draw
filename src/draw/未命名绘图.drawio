@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T07:13:29.693Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="opIbky5pe0KciA9rf1yI" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-29T12:05:36.825Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="mCSoRdCSeFJWxJzLskK5" version="23.1.7" type="github">
   <diagram id="YBUGIkmZOkc1lFC6h_iH" name="周年店庆">
     <mxGraphModel dx="1235" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -156,91 +156,32 @@
         <mxCell id="7Z_NtfbdXlP_yAfhl1wK-57" value="开始" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="1080" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="7Z_NtfbdXlP_yAfhl1wK-59" target="7Z_NtfbdXlP_yAfhl1wK-62">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Z_NtfbdXlP_yAfhl1wK-59" target="7Z_NtfbdXlP_yAfhl1wK-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="330" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-59" value="获取用户信息" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-59" value="根据经纬度获取城市信息" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1080" y="220" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="7Z_NtfbdXlP_yAfhl1wK-60" value="结束" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="560" width="120" height="60" as="geometry" />
+          <mxGeometry x="1080" y="810" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="7Z_NtfbdXlP_yAfhl1wK-62" target="7Z_NtfbdXlP_yAfhl1wK-67">
+        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Z_NtfbdXlP_yAfhl1wK-69" target="7Z_NtfbdXlP_yAfhl1wK-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-62" value="获取优惠券列表" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-69" value="查询活动门店分群信息" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1080" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="7Z_NtfbdXlP_yAfhl1wK-67" target="7Z_NtfbdXlP_yAfhl1wK-60">
+        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="7Z_NtfbdXlP_yAfhl1wK-71" target="7Z_NtfbdXlP_yAfhl1wK-101">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-64" value="&lt;b&gt;Y&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7Z_NtfbdXlP_yAfhl1wK-63">
-          <mxGeometry x="-0.3" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-71" value="根据城市过滤活动门店信息" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="425" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="7Z_NtfbdXlP_yAfhl1wK-67" target="7Z_NtfbdXlP_yAfhl1wK-69">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-66" value="&lt;b&gt;N&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7Z_NtfbdXlP_yAfhl1wK-65">
-          <mxGeometry x="-0.1733" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-67" value="优惠券信息是否为空" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="420" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="7Z_NtfbdXlP_yAfhl1wK-69" target="7Z_NtfbdXlP_yAfhl1wK-71">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-69" value="查询门店配置方案" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="430" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="7Z_NtfbdXlP_yAfhl1wK-71" target="7Z_NtfbdXlP_yAfhl1wK-76">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-71" value="根据经纬度查询门店信息" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="560" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="7Z_NtfbdXlP_yAfhl1wK-76" target="7Z_NtfbdXlP_yAfhl1wK-78">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-73" value="&lt;b&gt;Y&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7Z_NtfbdXlP_yAfhl1wK-72">
-          <mxGeometry x="-0.045" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Z_NtfbdXlP_yAfhl1wK-76" target="7Z_NtfbdXlP_yAfhl1wK-80">
+        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;dashed=1;" edge="1" parent="1" target="7Z_NtfbdXlP_yAfhl1wK-83">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1420" y="750" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-75" value="&lt;b&gt;N&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7Z_NtfbdXlP_yAfhl1wK-74">
-          <mxGeometry x="-0.5067" y="2" relative="1" as="geometry">
-            <mxPoint x="5" y="2" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-76" value="门店信息为空" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1280" y="710" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="7Z_NtfbdXlP_yAfhl1wK-78" target="7Z_NtfbdXlP_yAfhl1wK-60">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-78" value="构建优惠券模板信息" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="720" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;dashed=1;" edge="1" parent="1" source="7Z_NtfbdXlP_yAfhl1wK-80" target="7Z_NtfbdXlP_yAfhl1wK-83">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-80" value="优惠券匹配门店" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="720" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.44;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="7Z_NtfbdXlP_yAfhl1wK-80" target="7Z_NtfbdXlP_yAfhl1wK-78">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1470" y="810" />
-              <mxPoint x="1133" y="810" />
-            </Array>
+            <mxPoint x="1530" y="749.9999999999998" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7Z_NtfbdXlP_yAfhl1wK-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="7Z_NtfbdXlP_yAfhl1wK-83" target="7Z_NtfbdXlP_yAfhl1wK-85">
@@ -295,6 +236,24 @@
         </mxCell>
         <mxCell id="7Z_NtfbdXlP_yAfhl1wK-98" value="&lt;b&gt;活动页展示附近可参与门店&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1280" y="125" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="7Z_NtfbdXlP_yAfhl1wK-101" target="7Z_NtfbdXlP_yAfhl1wK-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-101" value="过滤停业门店" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="7Z_NtfbdXlP_yAfhl1wK-104" target="7Z_NtfbdXlP_yAfhl1wK-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-104" value="计算门店与经纬度距离并排序" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="7Z_NtfbdXlP_yAfhl1wK-106" target="7Z_NtfbdXlP_yAfhl1wK-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z_NtfbdXlP_yAfhl1wK-106" value="按照门店开闭点情况排序，取前三" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="720" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
