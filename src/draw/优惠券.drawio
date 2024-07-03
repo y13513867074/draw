@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T06:33:10.580Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="MJjDpjXd-1sHIiuXQE6o" version="24.6.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-07-03T06:33:51.493Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="LsbdoDbx4vKGlOcqbPke" version="24.6.4" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="数据库">
     <mxGraphModel dx="2526" dy="2526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -872,7 +872,7 @@
             <mxPoint x="670" y="1700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QzVJHz2oCXtErDSUE-Zp-142" value="发送优惠券变更mq、变更为已失效" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-142" value="发送优惠券变更mq、变更为已领取" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="524" y="1670" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
