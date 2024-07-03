@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T06:29:16.688Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="3LtZFVb434NpaVMnIfkQ" version="24.6.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-07-03T06:32:44.102Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="gIS4SLQXrUf7zsfURuKH" version="24.6.4" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="数据库">
     <mxGraphModel dx="2526" dy="2526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -774,7 +774,7 @@
         <mxCell id="QzVJHz2oCXtErDSUE-Zp-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QzVJHz2oCXtErDSUE-Zp-114" target="QzVJHz2oCXtErDSUE-Zp-116">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QzVJHz2oCXtErDSUE-Zp-114" value="将优惠券状态置为【已失效】、退款状态置为【已退款】" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-114" value="将优惠券状态置为【已失效】、退款状态置为【已退款】、可退款金额【0】，已退款金额【分摊金额】" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="324" y="1005" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QzVJHz2oCXtErDSUE-Zp-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QzVJHz2oCXtErDSUE-Zp-118" target="QzVJHz2oCXtErDSUE-Zp-110">
@@ -791,6 +791,89 @@
         </mxCell>
         <mxCell id="QzVJHz2oCXtErDSUE-Zp-118" value="发送优惠券变更mq、变更为已失效" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="524" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-120" value="虚拟商品退款失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QzVJHz2oCXtErDSUE-Zp-122" target="QzVJHz2oCXtErDSUE-Zp-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-122" value="入参：订单信息、会员信息、是否整单退、退款单金额、用户优惠退款金额、是否履约成功、退款券列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1310" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QzVJHz2oCXtErDSUE-Zp-124" target="QzVJHz2oCXtErDSUE-Zp-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-124" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="1240" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QzVJHz2oCXtErDSUE-Zp-129" target="QzVJHz2oCXtErDSUE-Zp-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-126" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QzVJHz2oCXtErDSUE-Zp-125">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QzVJHz2oCXtErDSUE-Zp-129" target="QzVJHz2oCXtErDSUE-Zp-133">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="1450" />
+              <mxPoint x="60" y="1700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-128" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QzVJHz2oCXtErDSUE-Zp-127">
+          <mxGeometry x="-0.2378" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-129" value="校验是否是整单退款" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QzVJHz2oCXtErDSUE-Zp-131" target="QzVJHz2oCXtErDSUE-Zp-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-131" value="封装退款券列表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QzVJHz2oCXtErDSUE-Zp-133" target="QzVJHz2oCXtErDSUE-Zp-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-133" value="根据用户id和订单id和优惠券列表查询优惠券发券信息（包含优惠券方案信息和优惠券模板信息）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1670" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-134" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1685" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QzVJHz2oCXtErDSUE-Zp-136" target="QzVJHz2oCXtErDSUE-Zp-138">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="1615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-136" value="构建优惠券退款详情&lt;div&gt;（退款金额 =优惠券分摊金额之和&amp;nbsp;&lt;/div&gt;&lt;div&gt;用户优惠退款金额=支付三方承担金额之和）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="324" y="1490" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QzVJHz2oCXtErDSUE-Zp-138" target="QzVJHz2oCXtErDSUE-Zp-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-138" value="将优惠券状态置为【已领取】、退款状态置为【可退款】、可退款金额【分摊金额】，已退款金额【0】" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="324" y="1585" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QzVJHz2oCXtErDSUE-Zp-142" target="QzVJHz2oCXtErDSUE-Zp-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-140" value="批量修改优惠券" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QzVJHz2oCXtErDSUE-Zp-140" target="QzVJHz2oCXtErDSUE-Zp-142">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="504" y="1700" as="sourcePoint" />
+            <mxPoint x="670" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QzVJHz2oCXtErDSUE-Zp-142" value="发送优惠券变更mq、变更为已失效" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="524" y="1670" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
