@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T03:59:59.342Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="7mGDNcQjyk_6PcUwbL92" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-16T05:46:37.726Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="wGfhzo72NXPntqpByAE5" version="24.6.4" type="github" pages="2">
   <diagram id="YI2T-ThexBvrShxcPR3O" name="获取门店">
-    <mxGraphModel dx="1490" dy="1578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1730" dy="1578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -312,25 +312,26 @@
             <mxPoint x="275" y="295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zcI7kVGfxWVuJEvFTAAy-23" value="查询会员信息" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="zcI7kVGfxWVuJEvFTAAy-22" parent="1" source="zcI7kVGfxWVuJEvFTAAy-2">
+        <mxCell id="zcI7kVGfxWVuJEvFTAAy-23" value="查询会员信息和会员内部店" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="zcI7kVGfxWVuJEvFTAAy-22" parent="1" source="zcI7kVGfxWVuJEvFTAAy-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="390" y="305" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zcI7kVGfxWVuJEvFTAAy-24" value="返回会员信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="zcI7kVGfxWVuJEvFTAAy-22" parent="1" target="zcI7kVGfxWVuJEvFTAAy-2">
+        <mxCell id="zcI7kVGfxWVuJEvFTAAy-24" value="返回会员信息和内部店id集合" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="zcI7kVGfxWVuJEvFTAAy-22" parent="1" target="zcI7kVGfxWVuJEvFTAAy-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="390" y="375" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zcI7kVGfxWVuJEvFTAAy-26" value="查询会员内部店" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="zcI7kVGfxWVuJEvFTAAy-25" parent="1" source="zcI7kVGfxWVuJEvFTAAy-2">
+        <mxCell id="zcI7kVGfxWVuJEvFTAAy-26" value="查询内部店信息" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="zcI7kVGfxWVuJEvFTAAy-25" parent="1" source="zcI7kVGfxWVuJEvFTAAy-2">
           <mxGeometry x="-0.0022" relative="1" as="geometry">
             <mxPoint x="615" y="345" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zcI7kVGfxWVuJEvFTAAy-27" value="返回会员内部店" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="zcI7kVGfxWVuJEvFTAAy-25" parent="1" target="zcI7kVGfxWVuJEvFTAAy-2">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="zcI7kVGfxWVuJEvFTAAy-27" value="返回会员内部店信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="zcI7kVGfxWVuJEvFTAAy-25" parent="1" target="zcI7kVGfxWVuJEvFTAAy-2">
+          <mxGeometry x="0.0001" relative="1" as="geometry">
             <mxPoint x="615" y="415" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zcI7kVGfxWVuJEvFTAAy-33" value="根据条件获取门店状态显示方案列表" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="zcI7kVGfxWVuJEvFTAAy-32" parent="1" source="zcI7kVGfxWVuJEvFTAAy-2">
