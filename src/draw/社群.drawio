@@ -1,14 +1,213 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T02:40:34.978Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ua2IvM6Obl8D7GgYgXtN" version="24.6.4" type="github" pages="2">
-  <diagram id="YI2T-ThexBvrShxcPR3O" name="根据定位获取门店">
-    <mxGraphModel dx="1046" dy="1578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2024-07-16T03:56:27.693Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="aIDbAIo3QrHSqTcA_DiL" version="24.6.4" type="github" pages="2">
+  <diagram id="YI2T-ThexBvrShxcPR3O" name="获取门店">
+    <mxGraphModel dx="1490" dy="1578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4-aUIZREBfCvQGIkhph4-1" value="&lt;div&gt;根据定位获取门店&lt;br&gt;&lt;/div&gt;/resource/m/sys/base/homeshop" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="23" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-2" value="CAPI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-90" y="100" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-3" value="LBS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="50" y="100" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="4-aUIZREBfCvQGIkhph4-3">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-4" value="会员" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="190" y="100" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="4-aUIZREBfCvQGIkhph4-4">
+          <mxGeometry x="45" y="180" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-6" value="通过经纬度获取城市信息" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="4-aUIZREBfCvQGIkhph4-5" parent="1" source="4-aUIZREBfCvQGIkhph4-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="25" y="175" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-7" value="返回城市信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="4-aUIZREBfCvQGIkhph4-5" parent="1" target="4-aUIZREBfCvQGIkhph4-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="25" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-9" value="根据用户查询内部店" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="4-aUIZREBfCvQGIkhph4-8" parent="1" source="4-aUIZREBfCvQGIkhph4-2">
+          <mxGeometry x="0.0018" relative="1" as="geometry">
+            <mxPoint x="165" y="285" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-10" value="返回用户内部店" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="4-aUIZREBfCvQGIkhph4-8" parent="1" target="4-aUIZREBfCvQGIkhph4-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-12" value="运营" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="320" y="100" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="4-aUIZREBfCvQGIkhph4-12">
+          <mxGeometry x="45" y="280" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="4-aUIZREBfCvQGIkhph4-12">
+          <mxGeometry x="45" y="380" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-15" value="根据内部店门店id查询门店信息" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="4-aUIZREBfCvQGIkhph4-14" parent="1" source="4-aUIZREBfCvQGIkhph4-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="385" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-16" value="返回内部店门店信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="4-aUIZREBfCvQGIkhph4-14" parent="1" target="4-aUIZREBfCvQGIkhph4-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-18" value="门店id不为空，根据门店id查询门店信息" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="4-aUIZREBfCvQGIkhph4-17" parent="1" source="4-aUIZREBfCvQGIkhph4-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="485" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-19" value="返回门店信息并赋值到附近门店字段" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="4-aUIZREBfCvQGIkhph4-17" parent="1" target="4-aUIZREBfCvQGIkhph4-2">
+          <mxGeometry x="0.0012" relative="1" as="geometry">
+            <mxPoint x="295" y="555" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-20" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;配置中心&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;luckycorecapi.homeshop.config 门店搜索限制配置&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="23" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-21" value="&lt;div&gt;获取开业城市&lt;/div&gt;/resource/m/sys/app/openingcitys" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="653" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-22" value="CAPI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-110" y="710" width="100" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-48" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="4-aUIZREBfCvQGIkhph4-22">
+          <mxGeometry x="45" y="340" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-49" value="根据配置信息&lt;div&gt;过滤城市&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="4-aUIZREBfCvQGIkhph4-48" parent="4-aUIZREBfCvQGIkhph4-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-31" value="运营" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="60" y="710" width="100" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-38" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="4-aUIZREBfCvQGIkhph4-31">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-39" value="获取运营中的已开业待停业的城市" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="4-aUIZREBfCvQGIkhph4-38" parent="1" source="4-aUIZREBfCvQGIkhph4-22">
+          <mxGeometry x="0.0018" relative="1" as="geometry">
+            <mxPoint x="275" y="785" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-40" value="返回城市列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="4-aUIZREBfCvQGIkhph4-38" parent="1" target="4-aUIZREBfCvQGIkhph4-22">
+          <mxGeometry x="0.0018" relative="1" as="geometry">
+            <mxPoint x="275" y="855" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-41" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;配置中心&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;luckycorecapi.experiment.shop.config&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;lbs.citymatch.config&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="643" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-42" value="gaea" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="200" y="710" width="100" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-45" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="4-aUIZREBfCvQGIkhph4-42">
+          <mxGeometry x="45" y="190" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-46" value="获取配置信息" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="4-aUIZREBfCvQGIkhph4-45" parent="1" source="4-aUIZREBfCvQGIkhph4-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="905" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-47" value="返回配置信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="4-aUIZREBfCvQGIkhph4-45" parent="1" target="4-aUIZREBfCvQGIkhph4-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="975" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-50" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;搜索门店&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;/resource/m/shop/list&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="23" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-51" value="CAPI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="650" y="100" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-52" value="LBS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="790" y="100" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-53" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="4-aUIZREBfCvQGIkhph4-52">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-54" value="adminclient" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="930" y="100" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-55" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="4-aUIZREBfCvQGIkhph4-54">
+          <mxGeometry x="45" y="180" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-56" value="通过经纬度获取城市信息" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="4-aUIZREBfCvQGIkhph4-51" target="4-aUIZREBfCvQGIkhph4-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="765" y="175" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-57" value="返回城市信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="4-aUIZREBfCvQGIkhph4-53" target="4-aUIZREBfCvQGIkhph4-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="765" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-58" value="根据城市id查询城市信息" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="4-aUIZREBfCvQGIkhph4-51" target="4-aUIZREBfCvQGIkhph4-55">
+          <mxGeometry x="0.0018" relative="1" as="geometry">
+            <mxPoint x="905" y="285" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-59" value="返回城市信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="699.5" y="350" as="targetPoint" />
+            <mxPoint x="975" y="350" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-60" value="运营" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1060" y="100" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-61" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="4-aUIZREBfCvQGIkhph4-60">
+          <mxGeometry x="45" y="280" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-62" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="4-aUIZREBfCvQGIkhph4-60">
+          <mxGeometry x="45" y="380" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-63" value="根据内部店门店id查询门店信息" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="4-aUIZREBfCvQGIkhph4-51" target="4-aUIZREBfCvQGIkhph4-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1035" y="385" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-64" value="返回内部店门店信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="4-aUIZREBfCvQGIkhph4-61" target="4-aUIZREBfCvQGIkhph4-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1035" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-65" value="门店id不为空，根据门店id查询门店信息" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="4-aUIZREBfCvQGIkhph4-51" target="4-aUIZREBfCvQGIkhph4-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1035" y="485" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-66" value="返回门店信息并赋值到附近门店字段" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="4-aUIZREBfCvQGIkhph4-62" target="4-aUIZREBfCvQGIkhph4-51">
+          <mxGeometry x="0.0012" relative="1" as="geometry">
+            <mxPoint x="1035" y="555" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-aUIZREBfCvQGIkhph4-67" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;配置中心&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;luckycorecapi.homeshop.config 门店搜索限制配置&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="23" width="290" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="社群门店加群" id="puAd3xsHJILx27P7HOm7">
-    <mxGraphModel dx="1778" dy="1435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1648" dy="1435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +215,7 @@
           <mxGeometry x="-10" y="40" width="100" height="710" as="geometry" />
         </mxCell>
         <mxCell id="zcI7kVGfxWVuJEvFTAAy-2" value="capi" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="190" y="40" width="100" height="740" as="geometry" />
+          <mxGeometry x="190" y="40" width="100" height="710" as="geometry" />
         </mxCell>
         <mxCell id="zcI7kVGfxWVuJEvFTAAy-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zcI7kVGfxWVuJEvFTAAy-2">
           <mxGeometry x="45" y="60" width="10" height="40" as="geometry" />
@@ -171,6 +370,73 @@
             <mxPoint x="39.323529411764866" y="679.9999999999998" as="targetPoint" />
             <mxPoint x="236" y="679.9999999999998" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="25" y="790" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="VmJr0Ichg5iB4A7BfSAe-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-3" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="175" y="1190" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VmJr0Ichg5iB4A7BfSAe-5" target="VmJr0Ichg5iB4A7BfSAe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-5" value="查询门店限制" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VmJr0Ichg5iB4A7BfSAe-6" target="VmJr0Ichg5iB4A7BfSAe-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-10" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VmJr0Ichg5iB4A7BfSAe-9">
+          <mxGeometry x="-0.1927" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VmJr0Ichg5iB4A7BfSAe-6" target="VmJr0Ichg5iB4A7BfSAe-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-13" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VmJr0Ichg5iB4A7BfSAe-12">
+          <mxGeometry x="-0.3864" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-6" value="是否为空" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry y="950" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VmJr0Ichg5iB4A7BfSAe-8" target="VmJr0Ichg5iB4A7BfSAe-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-8" value="获取配置信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-11" value="默认搜索数量为8&lt;div&gt;默认不支持分页&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VmJr0Ichg5iB4A7BfSAe-17" target="VmJr0Ichg5iB4A7BfSAe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-21" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VmJr0Ichg5iB4A7BfSAe-20">
+          <mxGeometry x="-0.3409" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VmJr0Ichg5iB4A7BfSAe-17" target="VmJr0Ichg5iB4A7BfSAe-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-17" value="分页字段&amp;gt;0" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1070" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VmJr0Ichg5iB4A7BfSAe-11" target="VmJr0Ichg5iB4A7BfSAe-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-22" value="根据经纬度查询城市信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
