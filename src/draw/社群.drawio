@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T03:56:27.693Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="aIDbAIo3QrHSqTcA_DiL" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-16T03:59:59.342Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="7mGDNcQjyk_6PcUwbL92" version="24.6.4" type="github" pages="2">
   <diagram id="YI2T-ThexBvrShxcPR3O" name="获取门店">
     <mxGraphModel dx="1490" dy="1578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -435,8 +435,26 @@
             <mxPoint x="130" y="1100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VmJr0Ichg5iB4A7BfSAe-22" target="VmJr0Ichg5iB4A7BfSAe-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VmJr0Ichg5iB4A7BfSAe-22" value="根据经纬度查询城市信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VmJr0Ichg5iB4A7BfSAe-24" target="VmJr0Ichg5iB4A7BfSAe-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VmJr0Ichg5iB4A7BfSAe-24" target="VmJr0Ichg5iB4A7BfSAe-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-24" value="是否入参有cityId" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="950" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-29" value="来源app|小程序&amp;amp;版本大于5145&amp;amp;场景是2" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="830" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VmJr0Ichg5iB4A7BfSAe-31" value="查询城市信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="960" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
