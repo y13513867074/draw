@@ -2958,7 +2958,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Duvk9ossybgzFA7srNT-" name="咖啡广告巨量投放逻辑">
-    <mxGraphModel dx="1877" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1877" dy="1691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3246,6 +3246,150 @@
           <mxGeometry x="-0.0035" relative="1" as="geometry">
             <mxPoint x="155" y="632" as="sourcePoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-2" value="现状" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-355" y="-12" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-3" value="改造:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-365" y="908" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1010" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-5" value="点击投放广告" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" target="Nz_fxTyj6BvIthf4VWCH-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-185" y="1015" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-6" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-235" y="990" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-7" value="微信小程序" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="5" y="950" width="100" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Nz_fxTyj6BvIthf4VWCH-7">
+          <mxGeometry x="45" y="70" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-9" value="广告点击上报" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-315" y="950" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-10" value="广告投放系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="295" y="950" width="100" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Nz_fxTyj6BvIthf4VWCH-10">
+          <mxGeometry x="45" y="90" width="10" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Nz_fxTyj6BvIthf4VWCH-10">
+          <mxGeometry x="45" y="130" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-13" value="&lt;span style=&quot;text-align: center;&quot;&gt;MQ发送点击事件&lt;/span&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="Nz_fxTyj6BvIthf4VWCH-10" target="Nz_fxTyj6BvIthf4VWCH-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="120" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Nz_fxTyj6BvIthf4VWCH-10">
+          <mxGeometry x="45" y="210" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-15" value="保存 lucky_ad_click_log&lt;div&gt;rowkey：渠道+clicId&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="Nz_fxTyj6BvIthf4VWCH-10" source="Nz_fxTyj6BvIthf4VWCH-11" target="Nz_fxTyj6BvIthf4VWCH-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="190" />
+              <mxPoint x="85" y="230" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Nz_fxTyj6BvIthf4VWCH-10">
+          <mxGeometry x="45" y="170" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-17" value="clickId幂等性校验" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="Nz_fxTyj6BvIthf4VWCH-10" source="Nz_fxTyj6BvIthf4VWCH-12" target="Nz_fxTyj6BvIthf4VWCH-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="150" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="165" />
+              <mxPoint x="85" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Nz_fxTyj6BvIthf4VWCH-10">
+          <mxGeometry x="45" y="310" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-19" value="更新最新设备最后一次广告点击记录&lt;div&gt;lucky_ad_openid_clickid_mapping&lt;br&gt;&lt;/div&gt;&lt;div&gt;rowkey: oneId&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="Nz_fxTyj6BvIthf4VWCH-10" target="Nz_fxTyj6BvIthf4VWCH-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="330" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Nz_fxTyj6BvIthf4VWCH-10">
+          <mxGeometry x="45" y="315" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-21" value="上报激活事件&lt;div&gt;lucky_ad_event_callback_log&lt;br&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="Nz_fxTyj6BvIthf4VWCH-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="340" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="370" />
+            </Array>
+            <mxPoint as="offset" />
+            <mxPoint x="55" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-22" value="抖音广告" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-125" y="950" width="100" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-23" value="跳转到落地页" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="Nz_fxTyj6BvIthf4VWCH-22" target="Nz_fxTyj6BvIthf4VWCH-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="1025" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-24" value="Marketcapi" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="145" y="950" width="100" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Nz_fxTyj6BvIthf4VWCH-24">
+          <mxGeometry x="45" y="80" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-26" value="上报openid和clickid" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="Nz_fxTyj6BvIthf4VWCH-7" target="Nz_fxTyj6BvIthf4VWCH-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="1035" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-27" value="" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="Nz_fxTyj6BvIthf4VWCH-24" target="Nz_fxTyj6BvIthf4VWCH-11">
+          <mxGeometry x="-0.1615" y="10" relative="1" as="geometry">
+            <mxPoint x="270" y="1045" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-28" value="上报openid和clickid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nz_fxTyj6BvIthf4VWCH-27">
+          <mxGeometry x="-0.1436" y="10" relative="1" as="geometry">
+            <mxPoint x="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-29" value="设配中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="520" y="950" width="100" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-32" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Nz_fxTyj6BvIthf4VWCH-29">
+          <mxGeometry x="45" y="210" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-33" value="通过openid获取oneId" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" target="Nz_fxTyj6BvIthf4VWCH-29" parent="1" source="Nz_fxTyj6BvIthf4VWCH-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="1165" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="500" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-34" value="返回oneId" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="1230" as="targetPoint" />
+            <mxPoint x="565" y="1230" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
