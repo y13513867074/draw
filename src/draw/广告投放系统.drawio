@@ -3590,6 +3590,9 @@
         <mxCell id="Nz_fxTyj6BvIthf4VWCH-76" value="设配中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="30" y="1960" width="100" height="300" as="geometry" />
         </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-84" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Nz_fxTyj6BvIthf4VWCH-76">
+          <mxGeometry x="45" y="50" width="10" height="110" as="geometry" />
+        </mxCell>
         <mxCell id="Nz_fxTyj6BvIthf4VWCH-77" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="-330" y="2000" width="30" height="90" as="geometry" />
         </mxCell>
@@ -3609,6 +3612,12 @@
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="-260" y="2090" as="sourcePoint" />
             <mxPoint x="-200" y="2090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nz_fxTyj6BvIthf4VWCH-85" value="上报MQ" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1" target="Nz_fxTyj6BvIthf4VWCH-84">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-80" y="2050" as="sourcePoint" />
+            <mxPoint x="-20" y="2050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
