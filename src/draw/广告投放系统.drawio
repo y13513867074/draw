@@ -3179,9 +3179,10 @@
         <mxCell id="jlcRBEyPGrNu26Uvk-rx-73" value="事件3：点击企微广告" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-375" y="1850" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jlcRBEyPGrNu26Uvk-rx-75" value="预览" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=12;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="jlcRBEyPGrNu26Uvk-rx-72" target="jlcRBEyPGrNu26Uvk-rx-74" edge="1">
+        <mxCell id="jlcRBEyPGrNu26Uvk-rx-75" value="预览" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=12;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="jlcRBEyPGrNu26Uvk-rx-72" target="jlcRBEyPGrNu26Uvk-rx-74" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="10" y="1905" as="sourcePoint" />
+            <mxPoint x="80" y="1905" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jlcRBEyPGrNu26Uvk-rx-77" value="上报预览" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=12;" parent="1" source="jlcRBEyPGrNu26Uvk-rx-74" target="jlcRBEyPGrNu26Uvk-rx-76" edge="1">
