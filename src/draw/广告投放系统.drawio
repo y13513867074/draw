@@ -2417,7 +2417,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="I2_P2oYStCfBs9men9qe" name="广告流量来源">
-    <mxGraphModel dx="1290" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2117" dy="1691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2525,6 +2525,117 @@
             <mxPoint x="807.25" y="310" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-33" value="直投" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="-2" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-34" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="482" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-35" value="朋友圈" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="165" y="442" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="54HTnSFXCp6XgRquMqzd-35">
+          <mxGeometry x="45" y="60" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-37" value="看到广告" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="54HTnSFXCp6XgRquMqzd-35" target="54HTnSFXCp6XgRquMqzd-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="65" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-40" value="广告平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="635" y="442" width="100" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-41" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="54HTnSFXCp6XgRquMqzd-40">
+          <mxGeometry x="45" y="100" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-42" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="54HTnSFXCp6XgRquMqzd-40">
+          <mxGeometry x="45" y="110" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-43" value="保存用户与广告&lt;div&gt;的关联，触发激活&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="54HTnSFXCp6XgRquMqzd-40" target="54HTnSFXCp6XgRquMqzd-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="95" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-44" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="54HTnSFXCp6XgRquMqzd-40">
+          <mxGeometry x="45" y="170" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-45" value="微信小程序" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="305" y="442" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-46" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="54HTnSFXCp6XgRquMqzd-45">
+          <mxGeometry x="45" y="80" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-62" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="54HTnSFXCp6XgRquMqzd-45">
+          <mxGeometry x="45" y="103" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-63" value="加luna" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="54HTnSFXCp6XgRquMqzd-62" parent="54HTnSFXCp6XgRquMqzd-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="83" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="113" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-47" value="大数据" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="785" y="442" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-48" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="54HTnSFXCp6XgRquMqzd-47">
+          <mxGeometry x="45" y="170" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-49" value="咖啡订单" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="925" y="442" width="100" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-50" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="54HTnSFXCp6XgRquMqzd-49">
+          <mxGeometry x="45" y="260" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-51" value="电商订单" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1065" y="442" width="100" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-52" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="54HTnSFXCp6XgRquMqzd-51">
+          <mxGeometry x="45" y="280" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-53" value="点击广告触发加C动作" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="54HTnSFXCp6XgRquMqzd-35" target="54HTnSFXCp6XgRquMqzd-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="527" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-55" value="上报广告点击数据" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" target="54HTnSFXCp6XgRquMqzd-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519.5" y="547" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-56" value="监听大数据次留事件" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="834.5" y="632" as="sourcePoint" />
+            <mxPoint x="690" y="632" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-57" value="监听大数据app启动事件" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="839.5" y="672" as="sourcePoint" />
+            <mxPoint x="685" y="672" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-58" value="监听咖啡订单事件（处理支付）" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.0018" relative="1" as="geometry">
+            <mxPoint x="970" y="712" as="sourcePoint" />
+            <mxPoint x="684.5" y="712" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-59" value="监听电商订单事件（处理创建、支付）" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="54HTnSFXCp6XgRquMqzd-52" target="54HTnSFXCp6XgRquMqzd-40">
+          <mxGeometry x="0.0035" relative="1" as="geometry">
+            <mxPoint x="1105" y="742" as="sourcePoint" />
+            <mxPoint x="832.25" y="742" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="54HTnSFXCp6XgRquMqzd-60" value="加C" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="25" y="430" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
