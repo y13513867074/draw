@@ -3008,16 +3008,16 @@
         <mxCell id="jlcRBEyPGrNu26Uvk-rx-78" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="jlcRBEyPGrNu26Uvk-rx-1" vertex="1">
           <mxGeometry x="45" y="582.5" width="10" height="27.5" as="geometry" />
         </mxCell>
-        <mxCell id="jlcRBEyPGrNu26Uvk-rx-80" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="jlcRBEyPGrNu26Uvk-rx-1" vertex="1">
-          <mxGeometry x="45" y="584.75" width="10" height="40" as="geometry" />
+        <mxCell id="jlcRBEyPGrNu26Uvk-rx-61" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="jlcRBEyPGrNu26Uvk-rx-1" vertex="1">
+          <mxGeometry x="45" y="589.5" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jlcRBEyPGrNu26Uvk-rx-81" value="&lt;font color=&quot;#ff0000&quot;&gt;如何归因&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;到？现有方案是&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;归因到上一次的直投&lt;/font&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" parent="jlcRBEyPGrNu26Uvk-rx-1" target="jlcRBEyPGrNu26Uvk-rx-80" edge="1">
+        <mxCell id="jlcRBEyPGrNu26Uvk-rx-62" value="归因到&lt;div&gt;加C&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" parent="jlcRBEyPGrNu26Uvk-rx-1" target="jlcRBEyPGrNu26Uvk-rx-61" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="585.25" as="sourcePoint" />
+            <mxPoint x="50" y="590" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="50" y="567.75" />
-              <mxPoint x="80" y="567.75" />
-              <mxPoint x="80" y="615.75" />
+              <mxPoint x="50" y="572.5" />
+              <mxPoint x="80" y="572.5" />
+              <mxPoint x="80" y="620.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3153,19 +3153,6 @@
         <mxCell id="jlcRBEyPGrNu26Uvk-rx-56" value="上报预览+CLICKID" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=12;" parent="1" source="jlcRBEyPGrNu26Uvk-rx-53" target="jlcRBEyPGrNu26Uvk-rx-55" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="265" y="1745" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jlcRBEyPGrNu26Uvk-rx-61" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="-420" y="1217" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="jlcRBEyPGrNu26Uvk-rx-62" value="归因到&lt;div&gt;加C&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" parent="1" target="jlcRBEyPGrNu26Uvk-rx-61" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-415" y="1217.5" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="-415" y="1200" />
-              <mxPoint x="-385" y="1200" />
-              <mxPoint x="-385" y="1248" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="jlcRBEyPGrNu26Uvk-rx-63" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
