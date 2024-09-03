@@ -3205,8 +3205,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="yaDK_vq53boj31Z3ud5X" name="Token鉴权">
-    <mxGraphModel dx="1050" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="yaDK_vq53boj31Z3ud5X" name="稳定性保障">
+    <mxGraphModel dx="1581" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3558,12 +3558,12 @@
         <mxCell id="Jddvmj_bhp2H_ryR0AG8-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jddvmj_bhp2H_ryR0AG8-128" target="Jddvmj_bhp2H_ryR0AG8-117">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jddvmj_bhp2H_ryR0AG8-132" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Jddvmj_bhp2H_ryR0AG8-131">
-          <mxGeometry x="0.1462" y="-3" relative="1" as="geometry">
+        <mxCell id="Jddvmj_bhp2H_ryR0AG8-136" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Jddvmj_bhp2H_ryR0AG8-131">
+          <mxGeometry x="-0.9248" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jddvmj_bhp2H_ryR0AG8-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Jddvmj_bhp2H_ryR0AG8-128" target="Jddvmj_bhp2H_ryR0AG8-115">
+        <mxCell id="Jddvmj_bhp2H_ryR0AG8-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jddvmj_bhp2H_ryR0AG8-128" target="Jddvmj_bhp2H_ryR0AG8-115">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Jddvmj_bhp2H_ryR0AG8-134" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Jddvmj_bhp2H_ryR0AG8-133">
@@ -3573,6 +3573,9 @@
         </mxCell>
         <mxCell id="Jddvmj_bhp2H_ryR0AG8-128" value="判断异常code是否是token异常" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;shadow=0;glass=0;labelBorderColor=none;startSize=23;arcSize=8;strokeWidth=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="1540" y="810" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jddvmj_bhp2H_ryR0AG8-135" value="保存上报失败记录" style="html=1;rounded=0;shadow=0;glass=0;labelBorderColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#333333;startSize=23;fillColor=#999999;arcSize=8;strokeWidth=1;flipV=1;flipH=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="920" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
