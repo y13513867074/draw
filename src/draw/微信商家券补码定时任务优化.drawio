@@ -283,7 +283,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CYJVAqYGloL1yQLMluif-80" value="微信支付" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="557" y="881" width="226" height="760" as="geometry" />
+          <mxGeometry x="557" y="884" width="100" height="750" as="geometry" />
         </mxCell>
         <mxCell id="CYJVAqYGloL1yQLMluif-82" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="CYJVAqYGloL1yQLMluif-80">
           <mxGeometry x="45" y="657" width="10" height="80" as="geometry" />
@@ -367,9 +367,9 @@
           <mxGeometry x="727" y="881" width="100" height="756" as="geometry" />
         </mxCell>
         <mxCell id="CYJVAqYGloL1yQLMluif-89" value="marketing" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="891" y="883" width="100" height="756" as="geometry" />
+          <mxGeometry x="891" y="885" width="100" height="756" as="geometry" />
         </mxCell>
-        <mxCell id="CYJVAqYGloL1yQLMluif-91" value="&lt;div&gt;问题：&lt;/div&gt;1、不超量：&lt;div&gt;2、不重复：分布式id + 幂等性&lt;/div&gt;&lt;div&gt;3、不丢失：kafka的手动确认 + 微信接口的重复CODE和自动过滤&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="CYJVAqYGloL1yQLMluif-91" value="&lt;div&gt;问题：&lt;/div&gt;1、不超量：通过redis&lt;div&gt;2、不重复：分布式id + 幂等性&lt;/div&gt;&lt;div&gt;3、不丢失：kafka的手动确认 + 微信接口的重复CODE和自动过滤&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1004" y="1124" width="366" height="70" as="geometry" />
         </mxCell>
         <mxCell id="CYJVAqYGloL1yQLMluif-99" value="监控报警：&lt;div&gt;1、上传失败的阈值&lt;/div&gt;&lt;div&gt;2、上传失败不同CODE的提示&lt;/div&gt;&lt;div&gt;3、MQ堆积提示&lt;/div&gt;&lt;div&gt;4、redis 缓存生产的数量&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
