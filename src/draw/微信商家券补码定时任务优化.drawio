@@ -361,8 +361,8 @@
         <mxCell id="CYJVAqYGloL1yQLMluif-97" value="&lt;font color=&quot;#ff3333&quot;&gt;添加redis缓存，发送+，消费-&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="427" y="1429" width="175" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CYJVAqYGloL1yQLMluif-99" value="监控报警：&lt;div&gt;1、上传失败的阈值&lt;/div&gt;&lt;div&gt;2、上传失败不同CODE的提示&lt;/div&gt;&lt;div&gt;3、MQ堆积提示&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1012" y="1242" width="179" height="70" as="geometry" />
+        <mxCell id="CYJVAqYGloL1yQLMluif-99" value="监控报警：&lt;div&gt;1、上传失败的阈值&lt;/div&gt;&lt;div&gt;2、上传失败不同CODE的提示&lt;/div&gt;&lt;div&gt;3、MQ堆积提示&lt;/div&gt;&lt;div&gt;4、redis 缓存消息&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1012" y="1235" width="179" height="84" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
