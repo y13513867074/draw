@@ -422,7 +422,7 @@
         <mxCell id="TNaL0VDnhE6nm00tMQwp-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="TNaL0VDnhE6nm00tMQwp-2">
           <mxGeometry x="45" y="370" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TNaL0VDnhE6nm00tMQwp-11" value="校验最大可上传code值数量&lt;div&gt;和已上传code值数量。&lt;/div&gt;&lt;div&gt;每次循环上传10000&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="TNaL0VDnhE6nm00tMQwp-2" target="TNaL0VDnhE6nm00tMQwp-10">
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-11" value="校验最大可上传code值数量&amp;gt;0&lt;div&gt;校验可用code值数量&amp;lt;100万。&lt;/div&gt;&lt;div&gt;每次循环上传10000&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="TNaL0VDnhE6nm00tMQwp-2" target="TNaL0VDnhE6nm00tMQwp-10">
           <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="50" y="370" as="sourcePoint" />
             <Array as="points">
@@ -432,7 +432,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TNaL0VDnhE6nm00tMQwp-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="TNaL0VDnhE6nm00tMQwp-2">
-          <mxGeometry x="45" y="450" width="10" height="40" as="geometry" />
+          <mxGeometry x="45" y="450" width="10" height="186" as="geometry" />
         </mxCell>
         <mxCell id="TNaL0VDnhE6nm00tMQwp-13" value="每次生成200code上传" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="TNaL0VDnhE6nm00tMQwp-2" target="TNaL0VDnhE6nm00tMQwp-12">
           <mxGeometry relative="1" as="geometry">
@@ -449,16 +449,16 @@
           <mxGeometry x="45" y="270" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TNaL0VDnhE6nm00tMQwp-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="TNaL0VDnhE6nm00tMQwp-14">
-          <mxGeometry x="45" y="540" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="514" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TNaL0VDnhE6nm00tMQwp-17" value="v3/marketing/busifavor/&lt;div&gt;stocks/{stockId}/couponcodes&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="TNaL0VDnhE6nm00tMQwp-14" target="TNaL0VDnhE6nm00tMQwp-16">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-140.5" y="545" as="sourcePoint" />
+            <mxPoint x="-140.5" y="519" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TNaL0VDnhE6nm00tMQwp-18" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="TNaL0VDnhE6nm00tMQwp-14" source="TNaL0VDnhE6nm00tMQwp-16">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-140.5" y="615" as="targetPoint" />
+            <mxPoint x="-140.5" y="589" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TNaL0VDnhE6nm00tMQwp-19" value="发起任务调用" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="TNaL0VDnhE6nm00tMQwp-1" target="TNaL0VDnhE6nm00tMQwp-3">
