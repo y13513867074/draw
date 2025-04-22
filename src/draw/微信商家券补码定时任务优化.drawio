@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="第 1 页" id="9Iu8Gb6HDnmRLWSJVNTP">
-    <mxGraphModel dx="1428" dy="838" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1680" dy="986" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -476,6 +476,143 @@
             <mxPoint x="532" y="2082" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-22" value="兜底：当分片空闲时，继续上传下一个一百万" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="302" y="2386" width="258" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TNaL0VDnhE6nm00tMQwp-56" target="TNaL0VDnhE6nm00tMQwp-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-56" value="查询优惠券方案" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1803" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-57" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="841" y="2435" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-58" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="965" y="1733" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-59" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="TNaL0VDnhE6nm00tMQwp-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="1803" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TNaL0VDnhE6nm00tMQwp-63" target="TNaL0VDnhE6nm00tMQwp-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-61" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TNaL0VDnhE6nm00tMQwp-60">
+          <mxGeometry x="-0.2457" y="1" relative="1" as="geometry">
+            <mxPoint x="34" y="-102" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TNaL0VDnhE6nm00tMQwp-63" target="TNaL0VDnhE6nm00tMQwp-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-63" value="判断是否存在" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1893" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TNaL0VDnhE6nm00tMQwp-65" target="TNaL0VDnhE6nm00tMQwp-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-65" value="查询优惠券方案关联的优惠券模板" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="920" y="2003" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TNaL0VDnhE6nm00tMQwp-69" target="TNaL0VDnhE6nm00tMQwp-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-67" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TNaL0VDnhE6nm00tMQwp-66">
+          <mxGeometry x="-0.4588" y="-2" relative="1" as="geometry">
+            <mxPoint x="35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TNaL0VDnhE6nm00tMQwp-69" target="TNaL0VDnhE6nm00tMQwp-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-69" value="判断是否存在" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="940" y="2093" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TNaL0VDnhE6nm00tMQwp-71" target="TNaL0VDnhE6nm00tMQwp-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-71" value="查询优惠券模板是否关联微信商家券配置信息" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="2103" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TNaL0VDnhE6nm00tMQwp-75" target="TNaL0VDnhE6nm00tMQwp-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-73" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TNaL0VDnhE6nm00tMQwp-72">
+          <mxGeometry x="-0.1111" y="2" relative="1" as="geometry">
+            <mxPoint x="53" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TNaL0VDnhE6nm00tMQwp-75" target="TNaL0VDnhE6nm00tMQwp-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-75" value="判断是否存在" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="2193" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TNaL0VDnhE6nm00tMQwp-77" target="TNaL0VDnhE6nm00tMQwp-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-77" value="查询三方微信接口获取商家券配置上传信息" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="2203" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TNaL0VDnhE6nm00tMQwp-81" target="TNaL0VDnhE6nm00tMQwp-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-79" value="达到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TNaL0VDnhE6nm00tMQwp-78">
+          <mxGeometry x="-0.0353" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TNaL0VDnhE6nm00tMQwp-81" target="TNaL0VDnhE6nm00tMQwp-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-81" value="判断是否达到上传最大值" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="2293" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="TNaL0VDnhE6nm00tMQwp-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1523" y="2512" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1403" y="2612" />
+              <mxPoint x="1403" y="2532" />
+              <mxPoint x="1523" y="2532" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-83" value="循环每200code上传一次" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TNaL0VDnhE6nm00tMQwp-82">
+          <mxGeometry x="-0.0651" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-84" value="调用微信接口批量上传code给微信，每次200个code" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1464" y="2556" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TNaL0VDnhE6nm00tMQwp-87" target="TNaL0VDnhE6nm00tMQwp-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-86" value="小于" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TNaL0VDnhE6nm00tMQwp-85">
+          <mxGeometry x="-0.5778" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-87" value="判断是否大于10000" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1488" y="2410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TNaL0VDnhE6nm00tMQwp-88" target="TNaL0VDnhE6nm00tMQwp-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-91" value="达到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TNaL0VDnhE6nm00tMQwp-90">
+          <mxGeometry x="0.2982" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TNaL0VDnhE6nm00tMQwp-88" target="TNaL0VDnhE6nm00tMQwp-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNaL0VDnhE6nm00tMQwp-88" value="判断可用code是否到一百万" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="2410" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
