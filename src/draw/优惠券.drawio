@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T11:53:40.423Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="EAZgEokWmSrYsWdph4v0" version="24.6.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.13" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="数据库">
     <mxGraphModel dx="2526" dy="2526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1084,6 +1084,208 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1040" y="2450" as="sourcePoint" />
             <mxPoint x="1000" y="2480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2UpGGckiWkUi-_aMAwYf" name="动态模板变更">
+    <mxGraphModel dx="1428" dy="838" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-1" value="B端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="71" y="57" width="100" height="927" as="geometry" />
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-2" value="web" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="266" y="57" width="100" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5qPDCzOXz_etTJRFAdoB-2">
+          <mxGeometry x="45" y="69" width="10" height="846" as="geometry" />
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5qPDCzOXz_etTJRFAdoB-2">
+          <mxGeometry x="45" y="92" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-10" value="基础校验" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="5qPDCzOXz_etTJRFAdoB-9" parent="5qPDCzOXz_etTJRFAdoB-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="96" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="126" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5qPDCzOXz_etTJRFAdoB-2">
+          <mxGeometry x="47" y="141" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-12" value="只处理限定具体商品、&lt;div&gt;限定商品池&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="5qPDCzOXz_etTJRFAdoB-11" parent="5qPDCzOXz_etTJRFAdoB-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="51" y="146" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="81" y="176" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5qPDCzOXz_etTJRFAdoB-2">
+          <mxGeometry x="47" y="247" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5qPDCzOXz_etTJRFAdoB-2">
+          <mxGeometry x="45" y="325" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-26" value="解析商品池所有商品信息，&lt;div&gt;适用商品集合删除&lt;/div&gt;&lt;div&gt;不适用商品集合&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="5qPDCzOXz_etTJRFAdoB-2" target="5qPDCzOXz_etTJRFAdoB-25">
+          <mxGeometry x="0.1294" y="2" relative="1" as="geometry">
+            <mxPoint x="50" y="329" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="359" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-30" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5qPDCzOXz_etTJRFAdoB-2">
+          <mxGeometry x="47" y="394" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-32" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5qPDCzOXz_etTJRFAdoB-2">
+          <mxGeometry x="47" y="436" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-33" value="去除命中去“ ”后相同的商品" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="5qPDCzOXz_etTJRFAdoB-32" parent="5qPDCzOXz_etTJRFAdoB-2">
+          <mxGeometry x="0.1765" relative="1" as="geometry">
+            <mxPoint x="52" y="434" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="82" y="464" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-34" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5qPDCzOXz_etTJRFAdoB-2">
+          <mxGeometry x="47" y="472" width="10" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-35" value="根据中类分组" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" target="5qPDCzOXz_etTJRFAdoB-34" parent="5qPDCzOXz_etTJRFAdoB-2">
+          <mxGeometry x="-0.451" relative="1" as="geometry">
+            <mxPoint x="55" y="468" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="55" y="473" />
+              <mxPoint x="85" y="473" />
+              <mxPoint x="85" y="571" />
+              <mxPoint x="57" y="571" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-39" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5qPDCzOXz_etTJRFAdoB-2">
+          <mxGeometry x="47" y="560" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-40" value="校验选择商品集合和中类商品集合差值" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="5qPDCzOXz_etTJRFAdoB-39" parent="5qPDCzOXz_etTJRFAdoB-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="52" y="540" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="82" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-3" value="商品池" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="465" y="57" width="100" height="777" as="geometry" />
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5qPDCzOXz_etTJRFAdoB-3">
+          <mxGeometry x="45" y="214" width="10" height="551" as="geometry" />
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5qPDCzOXz_etTJRFAdoB-3">
+          <mxGeometry x="45" y="296" width="10" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-4" value="商品" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="623" y="57" width="100" height="777" as="geometry" />
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-27" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5qPDCzOXz_etTJRFAdoB-4">
+          <mxGeometry x="45" y="370" width="10" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5qPDCzOXz_etTJRFAdoB-4">
+          <mxGeometry x="43" y="501" width="10" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-5" value="适用商品、不适用商品描述" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="102" y="15" width="162" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-7" value="发送生成说明请求createDescribe" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="5qPDCzOXz_etTJRFAdoB-6" parent="1" source="5qPDCzOXz_etTJRFAdoB-1">
+          <mxGeometry x="-0.002" relative="1" as="geometry">
+            <mxPoint x="241" y="131" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-8" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="5qPDCzOXz_etTJRFAdoB-6" parent="1" target="5qPDCzOXz_etTJRFAdoB-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="241" y="201" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-14" value="查询商品池信息" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="5qPDCzOXz_etTJRFAdoB-13" parent="1" source="5qPDCzOXz_etTJRFAdoB-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="411" y="276" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-15" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="5qPDCzOXz_etTJRFAdoB-13" parent="1" target="5qPDCzOXz_etTJRFAdoB-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="318" y="537" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-19" value="返回商品池信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="318" y="308" as="targetPoint" />
+            <mxPoint x="510" y="308" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="438" y="308" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-21" value="解析商品池所有商品信息" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="5qPDCzOXz_etTJRFAdoB-20" parent="1">
+          <mxGeometry x="0.2235" y="2" relative="1" as="geometry">
+            <mxPoint x="318" y="308" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="348" y="338" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-23" value="查询不适用商品池信息" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="5qPDCzOXz_etTJRFAdoB-22" parent="1" source="5qPDCzOXz_etTJRFAdoB-2">
+          <mxGeometry x="-0.0026" relative="1" as="geometry">
+            <mxPoint x="440" y="358" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-24" value="返回商品池信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="5qPDCzOXz_etTJRFAdoB-22" parent="1" target="5qPDCzOXz_etTJRFAdoB-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="428" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-28" value="根据商品集合查询商品信息" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="5qPDCzOXz_etTJRFAdoB-27" parent="1" source="5qPDCzOXz_etTJRFAdoB-2">
+          <mxGeometry x="0.2227" y="-2" relative="1" as="geometry">
+            <mxPoint x="598" y="432" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-29" value="返回商品信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="5qPDCzOXz_etTJRFAdoB-27" parent="1" target="5qPDCzOXz_etTJRFAdoB-2">
+          <mxGeometry x="-0.0014" relative="1" as="geometry">
+            <mxPoint x="598" y="502" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-31" value="下市商品不展示，&lt;div&gt;配置中心配置商品不展示&lt;/div&gt;&lt;div&gt;含升豆、铂金豆商品不展示&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="5qPDCzOXz_etTJRFAdoB-30" parent="1">
+          <mxGeometry x="0.2143" relative="1" as="geometry">
+            <mxPoint x="317" y="453" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="347" y="483" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-37" value="根据中类查询所有上线商品" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="5qPDCzOXz_etTJRFAdoB-36" parent="1" source="5qPDCzOXz_etTJRFAdoB-2">
+          <mxGeometry x="-0.0014" relative="1" as="geometry">
+            <mxPoint x="596" y="563" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qPDCzOXz_etTJRFAdoB-38" value="返回中类下所有上线商品" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="5qPDCzOXz_etTJRFAdoB-36" parent="1" target="5qPDCzOXz_etTJRFAdoB-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="596" y="633" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
