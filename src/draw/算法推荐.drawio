@@ -996,7 +996,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="C-oT7bCgEBzTyraCojdo" name="新人">
-    <mxGraphModel dx="2433" dy="2582" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1987" dy="1864" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1335,11 +1335,42 @@
         <mxCell id="WTpqlSNvXn1QVBqeh1gj-109" value="返回算法推荐数据" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="307" y="1588" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WTpqlSNvXn1QVBqeh1gj-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WTpqlSNvXn1QVBqeh1gj-114" target="WTpqlSNvXn1QVBqeh1gj-79">
+        <mxCell id="WTpqlSNvXn1QVBqeh1gj-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WTpqlSNvXn1QVBqeh1gj-114" target="WTpqlSNvXn1QVBqeh1gj-122">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WTpqlSNvXn1QVBqeh1gj-114" value="根据算法推荐为推荐结果进行后续赋值，source写死108" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="WTpqlSNvXn1QVBqeh1gj-114" value="获取新人商品池信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="307" y="1697" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WTpqlSNvXn1QVBqeh1gj-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WTpqlSNvXn1QVBqeh1gj-122" target="WTpqlSNvXn1QVBqeh1gj-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WTpqlSNvXn1QVBqeh1gj-122" value="根据算法推荐数据和新人商品池数据取交集商品并按照商品池顺序轮流赋值" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="472" y="1697" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WTpqlSNvXn1QVBqeh1gj-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WTpqlSNvXn1QVBqeh1gj-125" target="WTpqlSNvXn1QVBqeh1gj-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WTpqlSNvXn1QVBqeh1gj-128" value="满足" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WTpqlSNvXn1QVBqeh1gj-127">
+          <mxGeometry x="0.0042" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTpqlSNvXn1QVBqeh1gj-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WTpqlSNvXn1QVBqeh1gj-125" target="WTpqlSNvXn1QVBqeh1gj-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WTpqlSNvXn1QVBqeh1gj-131" value="不满足" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WTpqlSNvXn1QVBqeh1gj-130">
+          <mxGeometry x="-0.323" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTpqlSNvXn1QVBqeh1gj-125" value="查看是否满足补位数量" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="492" y="1797" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WTpqlSNvXn1QVBqeh1gj-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WTpqlSNvXn1QVBqeh1gj-129" target="WTpqlSNvXn1QVBqeh1gj-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WTpqlSNvXn1QVBqeh1gj-129" value="直接补位商品池推荐的但是算法没有推荐的商品" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="472" y="1920" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
