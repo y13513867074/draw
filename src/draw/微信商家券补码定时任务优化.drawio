@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="第 1 页" id="9Iu8Gb6HDnmRLWSJVNTP">
-    <mxGraphModel dx="1426" dy="838" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1884" dy="838" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -358,10 +358,10 @@
         <mxCell id="CYJVAqYGloL1yQLMluif-97" value="&lt;font color=&quot;#ff3333&quot;&gt;添加redis缓存生产的数量，发送+，消费-&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="CYJVAqYGloL1yQLMluif-80" vertex="1">
           <mxGeometry x="-159" y="582" width="235" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="cocQdLlqZtEP4rDMQ43g-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="CYJVAqYGloL1yQLMluif-80">
+        <mxCell id="cocQdLlqZtEP4rDMQ43g-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="CYJVAqYGloL1yQLMluif-80" vertex="1">
           <mxGeometry x="-144" y="455" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cocQdLlqZtEP4rDMQ43g-2" value="&lt;div&gt;判断可用code是否不于100万，&lt;/div&gt;&lt;div&gt;每次循环上传10000&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="cocQdLlqZtEP4rDMQ43g-1" parent="CYJVAqYGloL1yQLMluif-80">
+        <mxCell id="cocQdLlqZtEP4rDMQ43g-2" value="&lt;div&gt;判断可用code是否不于100万，&lt;/div&gt;&lt;div&gt;每次循环上传10000&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="CYJVAqYGloL1yQLMluif-80" target="cocQdLlqZtEP4rDMQ43g-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-139" y="463" as="sourcePoint" />
             <Array as="points">
@@ -627,7 +627,7 @@
         <mxCell id="TNaL0VDnhE6nm00tMQwp-88" value="判断可用code是否到一百万" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1270" y="2410" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cocQdLlqZtEP4rDMQ43g-3" value="大于100万的过滤" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="CYJVAqYGloL1yQLMluif-72">
+        <mxCell id="cocQdLlqZtEP4rDMQ43g-3" value="大于100万的过滤" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" target="CYJVAqYGloL1yQLMluif-72" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="414" y="1373" as="sourcePoint" />
             <mxPoint x="301" y="1078" as="targetPoint" />
@@ -636,6 +636,15 @@
               <mxPoint x="296" y="1061" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Fsx1KcyQkfbAPx_Pd0ag-1" value="现状" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="118" y="34" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fsx1KcyQkfbAPx_Pd0ag-2" value="优化方案1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="84" y="859" width="73" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fsx1KcyQkfbAPx_Pd0ag-3" value="redis key stockId&lt;div&gt;value 自增次数&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="98" y="1271" width="107" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
