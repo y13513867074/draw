@@ -1548,6 +1548,15 @@
         <mxCell id="v03Wq9UIBaJT4V__6aVj-77" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="v03Wq9UIBaJT4V__6aVj-75">
           <mxGeometry x="60" y="250" width="10" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="CVNCcn0-0ZIF1OpRmePI-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="v03Wq9UIBaJT4V__6aVj-75">
+          <mxGeometry x="60" y="370" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CVNCcn0-0ZIF1OpRmePI-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="v03Wq9UIBaJT4V__6aVj-75">
+          <mxGeometry x="60" y="490" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CVNCcn0-0ZIF1OpRmePI-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="v03Wq9UIBaJT4V__6aVj-75">
+          <mxGeometry x="60" y="600" width="10" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="v03Wq9UIBaJT4V__6aVj-78" value="MARKETINGCOUPON" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="420" y="1120" width="154" height="780" as="geometry" />
         </mxCell>
@@ -1556,6 +1565,15 @@
         </mxCell>
         <mxCell id="v03Wq9UIBaJT4V__6aVj-102" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="v03Wq9UIBaJT4V__6aVj-78">
           <mxGeometry x="72" y="260" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CVNCcn0-0ZIF1OpRmePI-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="v03Wq9UIBaJT4V__6aVj-78">
+          <mxGeometry x="72" y="380" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CVNCcn0-0ZIF1OpRmePI-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="v03Wq9UIBaJT4V__6aVj-78">
+          <mxGeometry x="72" y="490" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CVNCcn0-0ZIF1OpRmePI-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="v03Wq9UIBaJT4V__6aVj-78">
+          <mxGeometry x="70" y="600" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="v03Wq9UIBaJT4V__6aVj-86" value="订单预览" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="v03Wq9UIBaJT4V__6aVj-73" target="v03Wq9UIBaJT4V__6aVj-76">
           <mxGeometry relative="1" as="geometry">
@@ -1593,6 +1611,54 @@
         <mxCell id="v03Wq9UIBaJT4V__6aVj-104" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="v03Wq9UIBaJT4V__6aVj-102" parent="1" target="v03Wq9UIBaJT4V__6aVj-75">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="422" y="1455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVNCcn0-0ZIF1OpRmePI-2" value="支付完成" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="CVNCcn0-0ZIF1OpRmePI-1" parent="1" source="v03Wq9UIBaJT4V__6aVj-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="1495" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVNCcn0-0ZIF1OpRmePI-4" value="虚拟订单履约" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="CVNCcn0-0ZIF1OpRmePI-3" parent="1" source="v03Wq9UIBaJT4V__6aVj-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="422" y="1505" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVNCcn0-0ZIF1OpRmePI-5" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="CVNCcn0-0ZIF1OpRmePI-3" parent="1" target="v03Wq9UIBaJT4V__6aVj-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="422" y="1575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVNCcn0-0ZIF1OpRmePI-6" value="过滤已发虚拟券" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1508" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CVNCcn0-0ZIF1OpRmePI-8" value="用户取消支付" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="CVNCcn0-0ZIF1OpRmePI-7" parent="1" source="v03Wq9UIBaJT4V__6aVj-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="1615" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVNCcn0-0ZIF1OpRmePI-10" value="作废优惠券" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="CVNCcn0-0ZIF1OpRmePI-9" parent="1" source="v03Wq9UIBaJT4V__6aVj-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="422" y="1615" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVNCcn0-0ZIF1OpRmePI-11" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="CVNCcn0-0ZIF1OpRmePI-9" parent="1" target="v03Wq9UIBaJT4V__6aVj-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="422" y="1685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVNCcn0-0ZIF1OpRmePI-13" value="用户退款" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="CVNCcn0-0ZIF1OpRmePI-12" parent="1" source="v03Wq9UIBaJT4V__6aVj-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="1725" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVNCcn0-0ZIF1OpRmePI-15" value="创建退款单" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="CVNCcn0-0ZIF1OpRmePI-14" parent="1" source="v03Wq9UIBaJT4V__6aVj-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="1725" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVNCcn0-0ZIF1OpRmePI-16" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="CVNCcn0-0ZIF1OpRmePI-14" parent="1" target="v03Wq9UIBaJT4V__6aVj-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="1795" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
