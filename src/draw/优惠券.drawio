@@ -1490,8 +1490,8 @@
             <mxPoint x="389" y="385" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="v03Wq9UIBaJT4V__6aVj-53" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="SendCoupon4CouponOrder#&lt;div&gt;sendCoupon4PackageOrder&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="180" x="260" y="320" as="geometry" />
+        <mxCell id="v03Wq9UIBaJT4V__6aVj-53" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="SendCouponCouponOrder#&lt;div&gt;sendCouponPackageOrder&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="170" x="265" y="320" as="geometry" />
         </mxCell>
         <mxCell id="v03Wq9UIBaJT4V__6aVj-55" edge="1" parent="1" source="v03Wq9UIBaJT4V__6aVj-4" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="v03Wq9UIBaJT4V__6aVj-54" value="查询虚拟券">
           <mxGeometry relative="1" as="geometry">
