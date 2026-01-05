@@ -1661,6 +1661,12 @@
             <mxPoint x="420" y="1795" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="3iw_mrJE2P4CHOnPKaXP-1" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" value="订单创建">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="310" as="sourcePoint" />
+            <mxPoint x="250" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
