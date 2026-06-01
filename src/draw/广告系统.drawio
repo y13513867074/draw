@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-03T03:43:12.742Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="TqvGpInPhceIqL9f72OO" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" pages="2">
   <diagram name="第 1 页" id="KpqGxGC6dAmvfTL2YmEG">
     <mxGraphModel dx="5635" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -645,6 +645,29 @@
         </mxCell>
         <mxCell id="q2R_IzYumt7rVA_6NE_g-62" value="&lt;b&gt;上报兜底&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="-2940" y="274" width="70" height="32" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ww7qABUiSvdaeGRDYLt_" name="小红书">
+    <mxGraphModel dx="848" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Jzd_Kj5Q51RuujDWgaNX-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="小程序开发者后台" vertex="1">
+          <mxGeometry height="520" width="100" x="130" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jzd_Kj5Q51RuujDWgaNX-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="wechatbusiness" vertex="1">
+          <mxGeometry height="520" width="100" x="260" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jzd_Kj5Q51RuujDWgaNX-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="advertisingchannel" vertex="1">
+          <mxGeometry height="520" width="107" x="413" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jzd_Kj5Q51RuujDWgaNX-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Hbase" vertex="1">
+          <mxGeometry height="520" width="100" x="670" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jzd_Kj5Q51RuujDWgaNX-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="deviceInfo" vertex="1">
+          <mxGeometry height="520" width="100" x="550" y="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
