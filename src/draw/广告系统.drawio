@@ -657,17 +657,58 @@
         <mxCell id="Jzd_Kj5Q51RuujDWgaNX-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="小程序开发者后台" vertex="1">
           <mxGeometry height="520" width="100" x="130" y="30" as="geometry" />
         </mxCell>
+        <mxCell id="Jzd_Kj5Q51RuujDWgaNX-7" parent="Jzd_Kj5Q51RuujDWgaNX-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="45" y="80" as="geometry" />
+        </mxCell>
         <mxCell id="Jzd_Kj5Q51RuujDWgaNX-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="wechatbusiness" vertex="1">
-          <mxGeometry height="520" width="100" x="260" y="30" as="geometry" />
+          <mxGeometry height="520" width="100" x="290" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jzd_Kj5Q51RuujDWgaNX-10" parent="Jzd_Kj5Q51RuujDWgaNX-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="45" y="90" as="geometry" />
         </mxCell>
         <mxCell id="Jzd_Kj5Q51RuujDWgaNX-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="advertisingchannel" vertex="1">
           <mxGeometry height="520" width="107" x="413" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jzd_Kj5Q51RuujDWgaNX-15" parent="Jzd_Kj5Q51RuujDWgaNX-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="48" y="95" as="geometry" />
         </mxCell>
         <mxCell id="Jzd_Kj5Q51RuujDWgaNX-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Hbase" vertex="1">
           <mxGeometry height="520" width="100" x="670" y="30" as="geometry" />
         </mxCell>
         <mxCell id="Jzd_Kj5Q51RuujDWgaNX-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="deviceInfo" vertex="1">
           <mxGeometry height="520" width="100" x="550" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jzd_Kj5Q51RuujDWgaNX-8" edge="1" parent="1" source="Jzd_Kj5Q51RuujDWgaNX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="Jzd_Kj5Q51RuujDWgaNX-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="120" />
+              <mxPoint x="160" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jzd_Kj5Q51RuujDWgaNX-9" connectable="0" parent="Jzd_Kj5Q51RuujDWgaNX-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="因为配置监听" vertex="1">
+          <mxGeometry relative="1" x="-0.1983" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jzd_Kj5Q51RuujDWgaNX-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Jzd_Kj5Q51RuujDWgaNX-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" value="https://luckywechatbusiness&lt;div&gt;.lkcoffee.com/luckywechat&lt;/div&gt;&lt;div&gt;business&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;/wechat/mini/security&amp;nbsp;&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0328" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="179.9117647058822" y="170" as="sourcePoint" />
+            <mxPoint x="335" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jzd_Kj5Q51RuujDWgaNX-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;" value="lucky_wechat_&lt;div&gt;minipro&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;gram_&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;callback_&lt;/span&gt;&lt;div&gt;event_topic&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="391" y="180" />
+            </Array>
+            <mxPoint x="345" y="180" as="sourcePoint" />
+            <mxPoint x="460.9999999999998" y="180" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
