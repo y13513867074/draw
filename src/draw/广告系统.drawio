@@ -776,6 +776,69 @@
         <mxCell id="ZJc_7PBKv1WtebwQdHy2-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="微信消息推送保存用户点击记录" vertex="1">
           <mxGeometry height="30" width="90" x="10" y="30" as="geometry" />
         </mxCell>
+        <mxCell id="ZJc_7PBKv1WtebwQdHy2-20" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="大数据推送" vertex="1">
+          <mxGeometry height="400" width="100" x="130" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJc_7PBKv1WtebwQdHy2-21" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="advertisingchannel" vertex="1">
+          <mxGeometry height="400" width="100" x="290" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJc_7PBKv1WtebwQdHy2-23" parent="ZJc_7PBKv1WtebwQdHy2-21" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="290" width="10" x="45" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJc_7PBKv1WtebwQdHy2-25" parent="ZJc_7PBKv1WtebwQdHy2-21" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="45" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJc_7PBKv1WtebwQdHy2-26" edge="1" parent="ZJc_7PBKv1WtebwQdHy2-21" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="ZJc_7PBKv1WtebwQdHy2-25" value="处理次留事件&lt;div&gt;/处理进店事件&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0101" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="85" y="130" />
+            </Array>
+            <mxPoint x="55" y="100" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJc_7PBKv1WtebwQdHy2-22" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="deviceInfo" vertex="1">
+          <mxGeometry height="400" width="100" x="430" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJc_7PBKv1WtebwQdHy2-24" edge="1" parent="1" source="ZJc_7PBKv1WtebwQdHy2-20" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="ZJc_7PBKv1WtebwQdHy2-23" value="监听大数据启动消息">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="705" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJc_7PBKv1WtebwQdHy2-27" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="订单系统" vertex="1">
+          <mxGeometry height="400" width="100" x="760" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJc_7PBKv1WtebwQdHy2-28" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="advertisingchannel" vertex="1">
+          <mxGeometry height="400" width="100" x="920" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJc_7PBKv1WtebwQdHy2-29" parent="ZJc_7PBKv1WtebwQdHy2-28" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="290" width="10" x="45" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJc_7PBKv1WtebwQdHy2-30" parent="ZJc_7PBKv1WtebwQdHy2-28" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="45" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJc_7PBKv1WtebwQdHy2-31" edge="1" parent="ZJc_7PBKv1WtebwQdHy2-28" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="ZJc_7PBKv1WtebwQdHy2-30" value="处理支付完成事件">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="130" />
+            </Array>
+            <mxPoint x="55" y="100" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJc_7PBKv1WtebwQdHy2-32" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="deviceInfo" vertex="1">
+          <mxGeometry height="400" width="100" x="1060" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJc_7PBKv1WtebwQdHy2-33" edge="1" parent="1" source="ZJc_7PBKv1WtebwQdHy2-27" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="ZJc_7PBKv1WtebwQdHy2-29" value="监听支付成功消息">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="895" y="695" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJc_7PBKv1WtebwQdHy2-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="进店事件回传" vertex="1">
+          <mxGeometry height="30" width="90" x="20" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJc_7PBKv1WtebwQdHy2-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="支付完成事件回传" vertex="1">
+          <mxGeometry height="30" width="130" x="640" y="590" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
