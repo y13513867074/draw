@@ -650,7 +650,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ww7qABUiSvdaeGRDYLt_" name="小红书">
-    <mxGraphModel dx="1201" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1044" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -686,7 +686,7 @@
         <mxCell id="ZJc_7PBKv1WtebwQdHy2-13" parent="Jzd_Kj5Q51RuujDWgaNX-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="40" width="10" x="48" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="ZJc_7PBKv1WtebwQdHy2-14" edge="1" parent="Jzd_Kj5Q51RuujDWgaNX-3" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="ZJc_7PBKv1WtebwQdHy2-13" value="&lt;div&gt;判断归因类型，&lt;/div&gt;&lt;div&gt;区分点击或阅读&lt;/div&gt;">
+        <mxCell id="ZJc_7PBKv1WtebwQdHy2-14" edge="1" parent="Jzd_Kj5Q51RuujDWgaNX-3" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="ZJc_7PBKv1WtebwQdHy2-13" value="&lt;div&gt;判断归因类型，&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;区分点击或阅读&lt;/span&gt;&lt;/div&gt;">
           <mxGeometry relative="1" x="0.0056" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
@@ -702,7 +702,7 @@
           <mxGeometry height="60" width="10" x="45" y="210" as="geometry" />
         </mxCell>
         <mxCell id="ZJc_7PBKv1WtebwQdHy2-15" parent="Jzd_Kj5Q51RuujDWgaNX-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
-          <mxGeometry height="50" width="10" x="45" y="380" as="geometry" />
+          <mxGeometry height="40" width="10" x="45" y="390" as="geometry" />
         </mxCell>
         <mxCell id="Jzd_Kj5Q51RuujDWgaNX-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="deviceInfo" vertex="1">
           <mxGeometry height="520" width="100" x="780" y="30" as="geometry" />
@@ -753,7 +753,7 @@
             <mxPoint x="607.0044444444447" y="289.72" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZJc_7PBKv1WtebwQdHy2-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" value="返回oneid">
+        <mxCell id="ZJc_7PBKv1WtebwQdHy2-12" edge="1" parent="1" source="Jzd_Kj5Q51RuujDWgaNX-5" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="返回oneid">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="795" y="360" as="sourcePoint" />
             <mxPoint x="602.9473684210527" y="360" as="targetPoint" />
@@ -769,9 +769,10 @@
             <mxPoint x="782" y="485" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZJc_7PBKv1WtebwQdHy2-16" edge="1" parent="1" source="Jzd_Kj5Q51RuujDWgaNX-3" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="ZJc_7PBKv1WtebwQdHy2-15" value="保存点击归因表/阅读归因表">
+        <mxCell id="ZJc_7PBKv1WtebwQdHy2-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" value="保存点击归因表/阅读归因表">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="782" y="415" as="sourcePoint" />
+            <mxPoint x="603.130434782609" y="430" as="sourcePoint" />
+            <mxPoint x="945" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZJc_7PBKv1WtebwQdHy2-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="微信消息推送保存用户点击记录" vertex="1">
